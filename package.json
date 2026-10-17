@@ -1,0 +1,15 @@
+{
+  "name": "pi-clear",
+  "version": "0.1.0",
+  "description": "Pi extension that adds a /clear command to start a fresh session",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "files": ["extensions", "LICENSE", "README.md"],
+  "pi": {
+    "extensions": ["./extensions/clear.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
